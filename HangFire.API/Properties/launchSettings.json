@@ -4,8 +4,8 @@
     "windowsAuthentication": false, 
     "anonymousAuthentication": true, 
     "iisExpress": {
-      "applicationUrl": "http://localhost:54741",
-      "sslPort": 44341
+      "applicationUrl": "http://localhost:54808",
+      "sslPort": 44347
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "HangFire": {
+    "HangFire.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",
