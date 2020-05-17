@@ -25,8 +25,8 @@ namespace HangFire.API.Controllers
             return new string[] { "value1", "value2" };
         }
         [HttpGet]
-        [Route("sdasd")]
-        public ActionResult OtelRezervasyon()
+        [Route("rezervasyon")]
+        public ActionResult OdaRezervasyon()
         {
            
             Rezervasyon rezervasyon=new Rezervasyon
